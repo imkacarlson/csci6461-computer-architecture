@@ -804,6 +804,7 @@ public class KACPanel {
 			public void actionPerformed(ActionEvent e) {
 				// Get value represented by the toggles
 				int toggleValue = getToggleValues();
+				kacPC.depositInstruction(toggleValue);
 			}
 		});
 

@@ -10,13 +10,11 @@ public class CPU {
 	// Memory Buffer Register (Pg. 4)
 	private int MBR;
 
+	// Memory Address Register (Pg. 5)
+	private int MAR;
+
 	// No-args constructor
 	public CPU() {
-		// Pg. 5: First 5 memory addresses are reserved
-		this.MBR = 6;
-	}
 
-	public int getMBR() {
-		return this.MBR;
 	}
 }

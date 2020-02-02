@@ -9,10 +9,16 @@ public class KAC {
 		this.KACRam = new RAM();
 		this.KACCPU = new CPU();
 	}
-	
+
+	// This method deposits a instruction into RAM
+	public boolean depositInstruction(int instruction) {
+		return this.KACRam.depositInstruction(instruction);
+	}
+
+	// This method just loads a program into RAM from ROM
 	public boolean loadROM() {
 		this.KACRam.loadOneIntoRAM();
-		
+
 		return true;
 	}
 
