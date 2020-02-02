@@ -12,6 +12,11 @@ public class CPU {
 
 	// No-args constructor
 	public CPU() {
+		// Pg. 5: First 5 memory addresses are reserved
+		this.MBR = 6;
+	}
 
+	public int getMBR() {
+		return this.MBR;
 	}
 }
