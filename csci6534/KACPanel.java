@@ -21,8 +21,6 @@ public class KACPanel {
 	private JTextField textField;
 	private JTextField textField_1;
 	private JTextField textField_2;
-	private JToggleButton toggleButton;
-	private JToggleButton toggleButton_1;
 	private JToggleButton toggleButton_2;
 	private JToggleButton toggleButton_3;
 	private JToggleButton toggleButton_4;
@@ -177,6 +175,13 @@ public class KACPanel {
 	}
 
 	/**
+	 * My own helper classes.
+	 */
+	public int getToggleValues() {
+		return 0;
+	}
+
+	/**
 	 * Create the application.
 	 */
 	public KACPanel() {
@@ -206,9 +211,7 @@ public class KACPanel {
 		JLabel lblNewLabel = new JLabel("Program Counter");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-		toggleButton = new JToggleButton("");
-
-		toggleButton_1 = new JToggleButton("");
+		int[] toggleButtons = new int[16];
 
 		toggleButton_2 = new JToggleButton("");
 
@@ -766,7 +769,10 @@ public class KACPanel {
 		JButton btnNewButton = new JButton("Deposit Instruction");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				System.out.println(toggleButton_17.isSelected());
+				// Get value represented by the toggles
+				int toggleValue = getToggleValues();
+
+				// System.out.println(toggleButton_17.isSelected());
 			}
 		});
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
@@ -824,9 +830,8 @@ public class KACPanel {
 						.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
 								.addComponent(lblNewLabel, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE,
 										Short.MAX_VALUE)
-								.addGroup(groupLayout.createSequentialGroup().addGroup(groupLayout
-										.createParallelGroup(Alignment.LEADING)
-										.addGroup(groupLayout.createSequentialGroup()
+								.addGroup(
+										groupLayout.createSequentialGroup()
 												.addComponent(textField, GroupLayout.PREFERRED_SIZE, 15,
 														GroupLayout.PREFERRED_SIZE)
 												.addGap(7)
@@ -835,49 +840,44 @@ public class KACPanel {
 												.addPreferredGap(ComponentPlacement.RELATED)
 												.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, 15,
 														GroupLayout.PREFERRED_SIZE)
-												.addPreferredGap(ComponentPlacement.RELATED).addComponent(textField_3,
-														GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
-										.addGroup(groupLayout.createSequentialGroup().addGap(21)
-												.addComponent(toggleButton, GroupLayout.PREFERRED_SIZE, 15,
-														GroupLayout.PREFERRED_SIZE)
 												.addPreferredGap(ComponentPlacement.RELATED)
-												.addComponent(toggleButton_1, GroupLayout.PREFERRED_SIZE, 15,
+												.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(15)
+												.addComponent(textField_5, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(7)
+												.addComponent(textField_6, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(6)
+												.addComponent(textField_7, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(6)
+												.addComponent(textField_4, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addPreferredGap(ComponentPlacement.UNRELATED)
+												.addComponent(textField_63, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(7)
+												.addComponent(textField_64, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(6)
+												.addComponent(textField_65, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(6)
+												.addComponent(textField_8, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addPreferredGap(ComponentPlacement.UNRELATED)
+												.addComponent(textField_67, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(7)
+												.addComponent(textField_68, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(6)
+												.addComponent(textField_69, GroupLayout.PREFERRED_SIZE, 15,
+														GroupLayout.PREFERRED_SIZE)
+												.addGap(6).addComponent(textField_66, GroupLayout.PREFERRED_SIZE, 15,
 														GroupLayout.PREFERRED_SIZE)))
-										.addGap(15)
-										.addComponent(textField_5, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(7)
-										.addComponent(textField_6, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(6)
-										.addComponent(textField_7, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(6)
-										.addComponent(textField_4, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addPreferredGap(ComponentPlacement.UNRELATED)
-										.addComponent(textField_63, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(7)
-										.addComponent(textField_64, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(6)
-										.addComponent(textField_65, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(6)
-										.addComponent(textField_8, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addPreferredGap(ComponentPlacement.UNRELATED)
-										.addComponent(textField_67, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(7)
-										.addComponent(textField_68, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(6)
-										.addComponent(textField_69, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(6).addComponent(textField_66, GroupLayout.PREFERRED_SIZE, 15,
-												GroupLayout.PREFERRED_SIZE)))
 						.addGroup(groupLayout.createSequentialGroup()
 								.addComponent(textField_9, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
 								.addPreferredGap(ComponentPlacement.RELATED)
@@ -1173,11 +1173,10 @@ public class KACPanel {
 												.addComponent(textField_114, GroupLayout.PREFERRED_SIZE, 15,
 														GroupLayout.PREFERRED_SIZE)
 												.addGap(6)
-												.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
-														.addComponent(btnNewButton, Alignment.LEADING,
-																GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE,
-																Short.MAX_VALUE)
-														.addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+												.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+														.addComponent(btnNewButton, GroupLayout.DEFAULT_SIZE,
+																GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+														.addGroup(groupLayout.createSequentialGroup()
 																.addComponent(textField_115, GroupLayout.PREFERRED_SIZE,
 																		15, GroupLayout.PREFERRED_SIZE)
 																.addGap(10)
@@ -1399,20 +1398,13 @@ public class KACPanel {
 										GroupLayout.PREFERRED_SIZE)
 								.addComponent(toggleButton_6, GroupLayout.PREFERRED_SIZE, 15,
 										GroupLayout.PREFERRED_SIZE)
-								.addGroup(groupLayout.createSequentialGroup()
-										.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-												.addComponent(toggleButton_2, GroupLayout.PREFERRED_SIZE, 15,
-														GroupLayout.PREFERRED_SIZE)
-												.addComponent(toggleButton_3, GroupLayout.PREFERRED_SIZE, 15,
-														GroupLayout.PREFERRED_SIZE)
-												.addComponent(toggleButton_4, GroupLayout.PREFERRED_SIZE, 15,
-														GroupLayout.PREFERRED_SIZE))
-										.addGap(298)
-										.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-												.addComponent(toggleButton, GroupLayout.PREFERRED_SIZE, 15,
-														GroupLayout.PREFERRED_SIZE)
-												.addComponent(toggleButton_1, GroupLayout.PREFERRED_SIZE, 15,
-														GroupLayout.PREFERRED_SIZE)))
+								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+										.addComponent(toggleButton_2, GroupLayout.PREFERRED_SIZE, 15,
+												GroupLayout.PREFERRED_SIZE)
+										.addComponent(toggleButton_3, GroupLayout.PREFERRED_SIZE, 15,
+												GroupLayout.PREFERRED_SIZE)
+										.addComponent(toggleButton_4, GroupLayout.PREFERRED_SIZE, 15,
+												GroupLayout.PREFERRED_SIZE))
 								.addComponent(toggleButton_5, GroupLayout.PREFERRED_SIZE, 15,
 										GroupLayout.PREFERRED_SIZE)))
 						.addGroup(groupLayout.createSequentialGroup().addComponent(lblGpRegister_2).addGap(11)
@@ -1483,7 +1475,8 @@ public class KACPanel {
 												GroupLayout.PREFERRED_SIZE)
 										.addComponent(textField_127, GroupLayout.PREFERRED_SIZE, 15,
 												GroupLayout.PREFERRED_SIZE))
-								.addGap(58).addComponent(btnNewButton)))));
+								.addGap(58).addComponent(btnNewButton)))
+				.addGap(313)));
 		frame.getContentPane().setLayout(groupLayout);
 	}
 }
