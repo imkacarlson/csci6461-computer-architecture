@@ -15,7 +15,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class MyPC {
+public class KACPanel {
 
 	private JFrame frame;
 	private JTextField textField;
@@ -167,7 +167,7 @@ public class MyPC {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MyPC window = new MyPC();
+					KACPanel window = new KACPanel();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -179,7 +179,7 @@ public class MyPC {
 	/**
 	 * Create the application.
 	 */
-	public MyPC() {
+	public KACPanel() {
 		initialize();
 	}
 
