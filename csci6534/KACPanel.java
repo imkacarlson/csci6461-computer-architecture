@@ -211,39 +211,55 @@ public class KACPanel {
 		JLabel lblNewLabel = new JLabel("Program Counter");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-		int[] toggleButtons = new int[16];
+		JToggleButton[] toggleButtons = new JToggleButton[16];
 
 		toggleButton_2 = new JToggleButton("");
+		toggleButtons[0] = toggleButton_2;
 
 		toggleButton_3 = new JToggleButton("");
+		toggleButtons[1] = toggleButton_3;
 
 		toggleButton_4 = new JToggleButton("");
+		toggleButtons[2] = toggleButton_4;
 
 		toggleButton_5 = new JToggleButton("");
+		toggleButtons[3] = toggleButton_5;
 
 		JToggleButton toggleButton_6 = new JToggleButton("");
+		toggleButtons[4] = toggleButton_6;
 
 		JToggleButton toggleButton_7 = new JToggleButton("");
+		toggleButtons[5] = toggleButton_7;
 
 		JToggleButton toggleButton_8 = new JToggleButton("");
+		toggleButtons[6] = toggleButton_8;
 
 		JToggleButton toggleButton_9 = new JToggleButton("");
+		toggleButtons[7] = toggleButton_9;
 
 		JToggleButton toggleButton_10 = new JToggleButton("");
+		toggleButtons[8] = toggleButton_10;
 
 		JToggleButton toggleButton_11 = new JToggleButton("");
+		toggleButtons[9] = toggleButton_11;
 
 		JToggleButton toggleButton_12 = new JToggleButton("");
+		toggleButtons[10] = toggleButton_12;
 
 		JToggleButton toggleButton_13 = new JToggleButton("");
+		toggleButtons[11] = toggleButton_13;
 
 		JToggleButton toggleButton_14 = new JToggleButton("");
+		toggleButtons[12] = toggleButton_14;
 
 		JToggleButton toggleButton_15 = new JToggleButton("");
+		toggleButtons[13] = toggleButton_15;
 
 		JToggleButton toggleButton_16 = new JToggleButton("");
+		toggleButtons[14] = toggleButton_16;
 
 		JToggleButton toggleButton_17 = new JToggleButton("");
+		toggleButtons[15] = toggleButton_17;
 
 		textField_3 = new JTextField();
 		textField_3.setEditable(false);
