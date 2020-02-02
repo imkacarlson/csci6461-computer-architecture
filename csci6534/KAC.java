@@ -9,5 +9,11 @@ public class KAC {
 		this.KACRam = new RAM();
 		this.KACCPU = new CPU();
 	}
+	
+	public boolean loadROM() {
+		this.KACRam.loadOneIntoRAM();
+		
+		return true;
+	}
 
 }
