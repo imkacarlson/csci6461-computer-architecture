@@ -848,7 +848,7 @@ public class KACPanel {
 						String binary = Integer.toBinaryString(registerValues.generalPurposeRegisters[i]);
 						for (int j = binary.length() - 1; j >= 0; j--) {
 							if (binary.charAt(j) == '1') {
-								gpr_3[binary.length() - j].setBackground(Color.GREEN);
+								gpr_3[binary.length() - (j + 1)].setBackground(Color.GREEN);
 							}
 						}
 					}
