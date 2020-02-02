@@ -11,6 +11,9 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.JToggleButton;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class MyPC {
 
@@ -105,6 +108,57 @@ public class MyPC {
 	private JTextField textField_77;
 	private JTextField textField_78;
 	private JTextField textField_79;
+	private JLabel lblGpRegister_1;
+	private JTextField textField_80;
+	private JTextField textField_81;
+	private JTextField textField_82;
+	private JTextField textField_83;
+	private JTextField textField_84;
+	private JTextField textField_85;
+	private JTextField textField_86;
+	private JTextField textField_87;
+	private JTextField textField_88;
+	private JTextField textField_89;
+	private JTextField textField_90;
+	private JTextField textField_91;
+	private JTextField textField_92;
+	private JTextField textField_93;
+	private JTextField textField_94;
+	private JTextField textField_95;
+	private JLabel lblGpRegister_2;
+	private JTextField textField_96;
+	private JTextField textField_97;
+	private JTextField textField_98;
+	private JTextField textField_99;
+	private JTextField textField_100;
+	private JTextField textField_101;
+	private JTextField textField_102;
+	private JTextField textField_103;
+	private JTextField textField_104;
+	private JTextField textField_105;
+	private JTextField textField_106;
+	private JTextField textField_107;
+	private JTextField textField_108;
+	private JTextField textField_109;
+	private JTextField textField_110;
+	private JTextField textField_111;
+	private JLabel lblGpRegister_3;
+	private JTextField textField_112;
+	private JTextField textField_113;
+	private JTextField textField_114;
+	private JTextField textField_115;
+	private JTextField textField_116;
+	private JTextField textField_117;
+	private JTextField textField_118;
+	private JTextField textField_119;
+	private JTextField textField_120;
+	private JTextField textField_121;
+	private JTextField textField_122;
+	private JTextField textField_123;
+	private JTextField textField_124;
+	private JTextField textField_125;
+	private JTextField textField_126;
+	private JTextField textField_127;
 
 	/**
 	 * Launch the application.
@@ -507,6 +561,214 @@ public class MyPC {
 		textField_79 = new JTextField();
 		textField_79.setEditable(false);
 		textField_79.setColumns(10);
+		
+		lblGpRegister_1 = new JLabel("GP Register 2");
+		lblGpRegister_1.setHorizontalAlignment(SwingConstants.CENTER);
+		
+		textField_80 = new JTextField();
+		textField_80.setEditable(false);
+		textField_80.setColumns(10);
+		
+		textField_81 = new JTextField();
+		textField_81.setEditable(false);
+		textField_81.setColumns(10);
+		
+		textField_82 = new JTextField();
+		textField_82.setEditable(false);
+		textField_82.setColumns(10);
+		
+		textField_83 = new JTextField();
+		textField_83.setEditable(false);
+		textField_83.setColumns(10);
+		
+		textField_84 = new JTextField();
+		textField_84.setEditable(false);
+		textField_84.setColumns(10);
+		
+		textField_85 = new JTextField();
+		textField_85.setEditable(false);
+		textField_85.setColumns(10);
+		
+		textField_86 = new JTextField();
+		textField_86.setEditable(false);
+		textField_86.setColumns(10);
+		
+		textField_87 = new JTextField();
+		textField_87.setEditable(false);
+		textField_87.setColumns(10);
+		
+		textField_88 = new JTextField();
+		textField_88.setEditable(false);
+		textField_88.setColumns(10);
+		
+		textField_89 = new JTextField();
+		textField_89.setEditable(false);
+		textField_89.setColumns(10);
+		
+		textField_90 = new JTextField();
+		textField_90.setEditable(false);
+		textField_90.setColumns(10);
+		
+		textField_91 = new JTextField();
+		textField_91.setEditable(false);
+		textField_91.setColumns(10);
+		
+		textField_92 = new JTextField();
+		textField_92.setEditable(false);
+		textField_92.setColumns(10);
+		
+		textField_93 = new JTextField();
+		textField_93.setEditable(false);
+		textField_93.setColumns(10);
+		
+		textField_94 = new JTextField();
+		textField_94.setEditable(false);
+		textField_94.setColumns(10);
+		
+		textField_95 = new JTextField();
+		textField_95.setEditable(false);
+		textField_95.setColumns(10);
+		
+		lblGpRegister_2 = new JLabel("GP Register 3");
+		lblGpRegister_2.setHorizontalAlignment(SwingConstants.CENTER);
+		
+		textField_96 = new JTextField();
+		textField_96.setEditable(false);
+		textField_96.setColumns(10);
+		
+		textField_97 = new JTextField();
+		textField_97.setEditable(false);
+		textField_97.setColumns(10);
+		
+		textField_98 = new JTextField();
+		textField_98.setEditable(false);
+		textField_98.setColumns(10);
+		
+		textField_99 = new JTextField();
+		textField_99.setEditable(false);
+		textField_99.setColumns(10);
+		
+		textField_100 = new JTextField();
+		textField_100.setEditable(false);
+		textField_100.setColumns(10);
+		
+		textField_101 = new JTextField();
+		textField_101.setEditable(false);
+		textField_101.setColumns(10);
+		
+		textField_102 = new JTextField();
+		textField_102.setEditable(false);
+		textField_102.setColumns(10);
+		
+		textField_103 = new JTextField();
+		textField_103.setEditable(false);
+		textField_103.setColumns(10);
+		
+		textField_104 = new JTextField();
+		textField_104.setEditable(false);
+		textField_104.setColumns(10);
+		
+		textField_105 = new JTextField();
+		textField_105.setEditable(false);
+		textField_105.setColumns(10);
+		
+		textField_106 = new JTextField();
+		textField_106.setEditable(false);
+		textField_106.setColumns(10);
+		
+		textField_107 = new JTextField();
+		textField_107.setEditable(false);
+		textField_107.setColumns(10);
+		
+		textField_108 = new JTextField();
+		textField_108.setEditable(false);
+		textField_108.setColumns(10);
+		
+		textField_109 = new JTextField();
+		textField_109.setEditable(false);
+		textField_109.setColumns(10);
+		
+		textField_110 = new JTextField();
+		textField_110.setEditable(false);
+		textField_110.setColumns(10);
+		
+		textField_111 = new JTextField();
+		textField_111.setEditable(false);
+		textField_111.setColumns(10);
+		
+		lblGpRegister_3 = new JLabel("GP Register 4");
+		lblGpRegister_3.setHorizontalAlignment(SwingConstants.CENTER);
+		
+		textField_112 = new JTextField();
+		textField_112.setEditable(false);
+		textField_112.setColumns(10);
+		
+		textField_113 = new JTextField();
+		textField_113.setEditable(false);
+		textField_113.setColumns(10);
+		
+		textField_114 = new JTextField();
+		textField_114.setEditable(false);
+		textField_114.setColumns(10);
+		
+		textField_115 = new JTextField();
+		textField_115.setEditable(false);
+		textField_115.setColumns(10);
+		
+		textField_116 = new JTextField();
+		textField_116.setEditable(false);
+		textField_116.setColumns(10);
+		
+		textField_117 = new JTextField();
+		textField_117.setEditable(false);
+		textField_117.setColumns(10);
+		
+		textField_118 = new JTextField();
+		textField_118.setEditable(false);
+		textField_118.setColumns(10);
+		
+		textField_119 = new JTextField();
+		textField_119.setEditable(false);
+		textField_119.setColumns(10);
+		
+		textField_120 = new JTextField();
+		textField_120.setEditable(false);
+		textField_120.setColumns(10);
+		
+		textField_121 = new JTextField();
+		textField_121.setEditable(false);
+		textField_121.setColumns(10);
+		
+		textField_122 = new JTextField();
+		textField_122.setEditable(false);
+		textField_122.setColumns(10);
+		
+		textField_123 = new JTextField();
+		textField_123.setEditable(false);
+		textField_123.setColumns(10);
+		
+		textField_124 = new JTextField();
+		textField_124.setEditable(false);
+		textField_124.setColumns(10);
+		
+		textField_125 = new JTextField();
+		textField_125.setEditable(false);
+		textField_125.setColumns(10);
+		
+		textField_126 = new JTextField();
+		textField_126.setEditable(false);
+		textField_126.setColumns(10);
+		
+		textField_127 = new JTextField();
+		textField_127.setEditable(false);
+		textField_127.setColumns(10);
+		
+		JButton btnNewButton = new JButton("Load Instruction");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println(toggleButton_17.isSelected());
+			}
+		});
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
@@ -618,76 +880,143 @@ public class MyPC {
 							.addComponent(textField_23, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addComponent(textField_24, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
-						.addComponent(lblIndexRegister_1, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(textField_25, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_26, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_27, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_28, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(textField_29, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_30, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_31, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_32, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(textField_33, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_34, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_35, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_36, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addGap(14)
-							.addComponent(textField_37, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_38, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_39, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_40, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
-						.addComponent(lblIndexRegister_2, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
-						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(textField_41, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_42, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_43, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_44, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(textField_45, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_46, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_47, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_48, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(textField_49, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_50, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_51, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_52, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(textField_53, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_54, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_55, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(textField_56, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
-						.addGroup(groupLayout.createSequentialGroup()
-							.addComponent(lblIndexRegister, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(lblIndexRegister, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
+								.addComponent(lblIndexRegister_1, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(textField_25, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_26, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_27, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_28, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(textField_29, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_30, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_31, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_32, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(textField_33, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_34, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_35, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_36, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(14)
+									.addComponent(textField_37, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_38, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_39, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_40, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
+								.addComponent(lblIndexRegister_2, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(textField_41, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_42, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_43, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_44, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(textField_45, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_46, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_47, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_48, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(textField_49, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_50, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_51, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_52, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.UNRELATED)
+									.addComponent(textField_53, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_54, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_55, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(textField_56, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))
 							.addGap(60)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(lblGpRegister_2, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(textField_96, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_97, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_98, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_99, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(10)
+									.addComponent(textField_100, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_101, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_102, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_103, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(10)
+									.addComponent(textField_104, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_105, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_106, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_107, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(10)
+									.addComponent(textField_108, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_109, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_110, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_111, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
+								.addComponent(lblGpRegister_1, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(textField_80, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_81, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_82, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_83, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(10)
+									.addComponent(textField_84, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_85, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_86, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_87, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(10)
+									.addComponent(textField_88, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_89, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_90, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_91, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(10)
+									.addComponent(textField_92, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_93, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_94, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_95, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
 								.addComponent(lblGpRegister, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
 								.addGroup(groupLayout.createSequentialGroup()
 									.addComponent(textField_57, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
@@ -720,7 +1049,43 @@ public class MyPC {
 									.addPreferredGap(ComponentPlacement.RELATED)
 									.addComponent(textField_78, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
 									.addPreferredGap(ComponentPlacement.RELATED)
-									.addComponent(textField_79, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))))
+									.addComponent(textField_79, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
+								.addComponent(lblGpRegister_3, GroupLayout.PREFERRED_SIZE, 351, GroupLayout.PREFERRED_SIZE)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(textField_112, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_113, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_114, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
+										.addComponent(btnNewButton, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+										.addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+											.addComponent(textField_115, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+											.addGap(10)
+											.addComponent(textField_116, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+											.addGap(6)
+											.addComponent(textField_117, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+											.addGap(6)
+											.addComponent(textField_118, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+											.addGap(6)
+											.addComponent(textField_119, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+											.addGap(10)
+											.addComponent(textField_120, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))
+									.addGap(6)
+									.addComponent(textField_121, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_122, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_123, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(10)
+									.addComponent(textField_124, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_125, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_126, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+									.addGap(6)
+									.addComponent(textField_127, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))))
 					.addContainerGap(49, Short.MAX_VALUE))
 		);
 		groupLayout.setVerticalGroup(
@@ -751,22 +1116,28 @@ public class MyPC {
 					.addComponent(lblGpRegister)
 					.addPreferredGap(ComponentPlacement.UNRELATED)
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblIndexRegister)
+							.addComponent(textField_58, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_57, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_59, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_60, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_61, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_62, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_70, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_71, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_72, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_73, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_74, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_75, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
+						.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+							.addComponent(textField_76, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_77, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_78, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+							.addComponent(textField_79, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
 						.addGroup(groupLayout.createSequentialGroup()
-							.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblIndexRegister)
-								.addComponent(textField_58, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_57, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_59, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_60, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_61, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_62, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_70, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_71, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_72, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_73, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_74, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_75, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 								.addComponent(textField_9, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
 								.addComponent(textField_10, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
@@ -808,8 +1179,30 @@ public class MyPC {
 									.addComponent(textField_36, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
 								.addComponent(textField_38, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
 								.addComponent(textField_39, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_40, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.UNRELATED)
+								.addComponent(textField_40, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addComponent(lblGpRegister_1)
+							.addGap(11)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(textField_80, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_81, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_82, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_83, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_84, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_85, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_86, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_87, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_88, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_89, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_90, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_91, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_92, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_93, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_94, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_95, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addGroup(groupLayout.createSequentialGroup()
 							.addComponent(lblIndexRegister_2)
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
@@ -854,11 +1247,48 @@ public class MyPC {
 										.addComponent(toggleButton, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
 										.addComponent(toggleButton_1, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))
 								.addComponent(toggleButton_5, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)))
-						.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-							.addComponent(textField_76, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addComponent(textField_77, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addComponent(textField_78, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-							.addComponent(textField_79, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addComponent(lblGpRegister_2)
+							.addGap(11)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(textField_96, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_97, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_98, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_99, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_100, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_101, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_102, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_103, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_104, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_105, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_106, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_107, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_108, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_109, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_110, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_111, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
+							.addGap(18)
+							.addComponent(lblGpRegister_3)
+							.addGap(11)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(textField_112, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_113, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_114, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_115, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_116, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_117, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_118, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_119, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_120, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_121, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_122, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_123, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_124, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_125, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_126, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
+								.addComponent(textField_127, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
+							.addGap(58)
+							.addComponent(btnNewButton))))
 		);
 		frame.getContentPane().setLayout(groupLayout);
 	}
