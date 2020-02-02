@@ -158,6 +158,9 @@ public class KACPanel {
 	private JTextField textField_126;
 	private JTextField textField_127;
 
+	// An array of pointers to all of the toggle buttons
+	private JToggleButton[] toggleButtons = new JToggleButton[16];
+
 	/**
 	 * Launch the application.
 	 */
@@ -178,7 +181,18 @@ public class KACPanel {
 	 * My own helper classes.
 	 */
 	public int getToggleValues() {
-		return 0;
+		int howMuchToAdd = 1;
+		int runningTotal = 0;
+
+		for (int i = toggleButtons.length - 1; i >= 0; i--) {
+			if (toggleButtons[i].isSelected()) {
+				runningTotal += howMuchToAdd;
+			}
+
+			howMuchToAdd *= 2;
+		}
+
+		return runningTotal;
 	}
 
 	/**
@@ -210,8 +224,6 @@ public class KACPanel {
 
 		JLabel lblNewLabel = new JLabel("Program Counter");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-
-		JToggleButton[] toggleButtons = new JToggleButton[16];
 
 		toggleButton_2 = new JToggleButton("");
 		toggleButtons[0] = toggleButton_2;
@@ -787,8 +799,6 @@ public class KACPanel {
 			public void actionPerformed(ActionEvent e) {
 				// Get value represented by the toggles
 				int toggleValue = getToggleValues();
-
-				// System.out.println(toggleButton_17.isSelected());
 			}
 		});
 		GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
