@@ -763,7 +763,7 @@ public class MyPC {
 		textField_127.setEditable(false);
 		textField_127.setColumns(10);
 		
-		JButton btnNewButton = new JButton("Load Instruction");
+		JButton btnNewButton = new JButton("Deposit Instruction");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(toggleButton_17.isSelected());
