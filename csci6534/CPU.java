@@ -17,4 +17,20 @@ public class CPU {
 	public CPU() {
 
 	}
+
+	public void setMBR(int MBR) {
+		this.MBR = MBR;
+	}
+
+	public int getMBR() {
+		return this.MBR;
+	}
+
+	public void setMAR(int MAR) {
+		this.MAR = MAR;
+	}
+
+	public int getMAR() {
+		return this.MAR;
+	}
 }
