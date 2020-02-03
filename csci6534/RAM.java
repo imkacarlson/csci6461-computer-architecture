@@ -12,7 +12,7 @@ public class RAM {
 	// My first simple ROM loader. This just loads the number 5 into a spot in
 	// memory
 	public boolean loadOneIntoRAM() {
-		memory[19] = 5;
+		memory[19] = 10;
 
 		return true;
 	}
